@@ -1,5 +1,19 @@
-# projectsandcastle
-Android/Linux for the iPhone
+<h3 align="center">Project Sandcastle</h3>
+<p align="center">
+    Android / Linux for the iPhone
+    <br />
+    <br />
+    <a href="https://github.com/Exploitox/projectsandcastle/releases"><strong>Download now »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Exploitox/projectsandcastle/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Exploitox/projectsandcastle/discussions/">Discussions</a>
+  </p>
+</p>
+
+![-----------------------------------------------------](https://dl.exploitox.de/t440p-oc/rainbow.png)
+
 
 ## Provided utilities:
 
@@ -12,13 +26,13 @@ Android/Linux for the iPhone
 
 Kernel can be obtained from our fork of linux-stable:
 
-https://github.com/corellium/linux-sandcastle
+<a href="https://github.com/Exploitox/linux-sandcastle"><strong>Get Kernel »</strong></a>
 
 ## Buildroot
 
 The Sandcastle Linux ramdisk is built using buildroot. Our customizations are here:
 
-https://github.com/corellium/sandcastle-buildroot
+<a href="https://github.com/Exploitox/sandcastle-buildroot"><strong>Get Buildroot »</strong></a>
 
 ## Android applications
 
@@ -59,3 +73,6 @@ read-write and read-only data in the same 16k page.
 If this doesn't help, check the source of the library for blatant uses of 4096, 0x1000
 or 12 for PAGE_SIZE, kPageSize, PAGE_SHIFT, PAGE_BITS, etc. (comparatively rare, but
 Chromium is a good example).
+
+## 📜 Credits
+- corellium [(Original Project)](https://github.com/corellium/projectsandcastle)
